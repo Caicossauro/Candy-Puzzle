@@ -1,0 +1,22 @@
+export const STRINGS = {
+  title: 'CANDY PUZZLE',
+  scoreLabel: 'Pontuação',
+  movesLabel: 'Movimentos',
+  targetLabel: 'Objetivo',
+  combo: ['', '', 'COMBO x2!', 'COMBO x3!', 'INCRÍVEL x4!', 'FANTÁSTICO x5!'],
+  comboLegendary: (n) => `LENDÁRIO x${n}!`,
+  levelComplete: 'NÍVEL COMPLETO!',
+  outOfMoves: 'SEM MOVIMENTOS!',
+  shuffling: 'EMBARALHANDO...',
+  retry: 'Tentar Novamente',
+  nextLevel: 'Continuar',
+  // Fase 4 — Cenas e UI
+  play: 'JOGAR',
+  selectLevel: 'SELECIONAR NÍVEL',
+  pause: 'PAUSA',
+  resume: 'Continuar Jogo',
+  restart: 'Reiniciar',
+  quit: 'Sair',
+  level: 'Nível',
+  menu: 'Menu',
+};
